@@ -80,7 +80,7 @@ $ nano /etc/mkinitcpio.conf
 base : HOOKS=(base udev ... block lvm2 filesystem)
 to : HOOks=(base systemd ... block lvm2 filesystem)
 ```
-## then :
+## Init linux & boot loader :
 ```
 $ mkinitcpio -p linux 
 $ bootctl install 
@@ -106,6 +106,4 @@ Ctrl + D
 $ umount -R /mnt 
 $ reboot
 ```
-## (no need to poweroff because Linux will boot using first what's given to him and not the ISO).
-
-## Remove ISO(after checking it work properly) & reboot select arch linux 
+## (no need to poweroff because Linux will boot using first what's given to him and not the ISO). Remove ISO(after checking it work properly) & reboot select arch linux.
