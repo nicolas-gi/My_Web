@@ -1,5 +1,4 @@
-# Epitech project
-![](/home/ngillard/Downloads/Epitech.png "Epitech")
+![](Epitech.png "Epitech")
 
 ## My_Web Tuto 
 
