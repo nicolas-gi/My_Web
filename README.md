@@ -56,7 +56,7 @@ $ mount /dev/sda1 /mnt/boot 
 ```
 ## install the base packages using pacstrap :
 ```
-$ pacstrap /mnt base linux linux-firmware nano lvm2 ctlboot base base-devel
+$ pacstrap /mnt linux linux-firmware nano lvm2 ctlboot base base-devel
 $ genfstab -U /mnt >> /mnt/etc/fstab 
 ```
 ## change root :
