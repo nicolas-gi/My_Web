@@ -1,9 +1,9 @@
-## Epitech project
+# Epitech project
 ![](/home/ngillard/Downloads/Epitech.png "Epitech")
 
-# My_Web Tuto 
+## My_Web Tuto 
 
-# First step: load keys & partionning the disk.
+## First step: load keys & partionning the disk.
 ```
 loadkeys fr
 ```
@@ -16,7 +16,7 @@ $ (parted) set 1 boot on
 $ (parted) mkpart primary ext4 513MiB 100%
 ```
 
-### Second step : Create a physical volume under which we'll have volume group under which finaly logical volume.
+## Second step : Create a physical volume under which we'll have volume group under which finaly logical volume.
 
 ```
 $ pvcreate /dev/sda2 (sda2 because sda1 is for the boot)
