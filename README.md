@@ -106,3 +106,7 @@ $ umount -R /mnt 
 $ reboot
 ```
 ## (no need to poweroff because Linux will boot using first what's given to him and not the ISO). Remove ISO(after checking it work properly) & reboot select arch linux.
+
+## Install Debian using iso by replacing old arch linux iso
+
+```
