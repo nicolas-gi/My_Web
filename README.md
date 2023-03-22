@@ -110,3 +110,5 @@ $ reboot
 ## Install Debian using iso by replacing old arch linux iso
 
 ```
+Be careful as installing root & home for debian as 'lvm' may not be what's required.
+```
